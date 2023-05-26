@@ -12,7 +12,7 @@ productor = KafkaProducer(bootstrap_servers=[servidores_bootstrap])
 
 #------------------------------------ 
 i = 0
-for k in range(100000):
+for k in range(10000):
     productor.send(topic, b'Un mensaje desde Python')
     i = i+1
     print('Enviando: ',i,'  mensaje desde Python')
