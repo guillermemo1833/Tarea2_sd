@@ -1,1 +1,1 @@
-# Tarea2_sd
+# Tarea 2 Sistemas Distribuidos
