@@ -6,9 +6,9 @@
 
 
 ```
- docker exec -it producer bash
+ docker exec -it Producer bash
 ```
 
 ```
- docker exec -it consumer bash
+ docker exec -it Consumer bash
 ```

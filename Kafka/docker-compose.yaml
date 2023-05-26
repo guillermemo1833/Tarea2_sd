@@ -22,21 +22,21 @@ services:
       - zookeeper
   
   producer:
-    build: ./producer
-    container_name: producer
+    build: ./Producer
+    container_name: Producer
     depends_on:
       - kafka
       - zookeeper
     volumes:
-      - ./producer:/usr/src/app
+      - ./Producer:/usr/src/app
   
   consumer:
-    build: ./consumer
-    container_name: consumer
+    build: ./Consumer
+    container_name: Consumer
     depends_on:
       - kafka
       - zookeeper
       - producer
     volumes:
-      - ./consumer:/usr/src/app
+      - ./Consumer:/usr/src/app
 
