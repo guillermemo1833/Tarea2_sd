@@ -1,6 +1,8 @@
 
 # Rabittmq
 
+Para que funcione el RabittMQ es necesario copiar estos dos codigos en el terminal
+
 ```
  docker pull rabbitmq
 ```
