@@ -1,7 +1,8 @@
 # KAfka
 
+```
  docker compose up --build
-
+```
 
 
  docker exec -it producer bash
